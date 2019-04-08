@@ -1,5 +1,5 @@
 function generateUML(data) {
-	var r = new createCORSRequest("POST","http://"+host+"/uml"));
+	var r = new createCORSRequest("POST",host+"/uml");
 	if (!r) {
 	  throw new Error('CORS not supported');
 	}
